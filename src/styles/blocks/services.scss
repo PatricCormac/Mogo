@@ -1,0 +1,33 @@
+.services__content {
+  display: flex;
+  align-items: center;
+}
+
+.services__item {
+  flex: 1 1 0;
+  padding-left: 85px;
+  padding-right: 35px;
+  position: relative;
+}
+
+.services__icon {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+}
+
+.services__title {
+  font-size: 14px;
+  color: $mainColor;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.services__text {
+  font-size: 15px;
+  color: #999999;
+}

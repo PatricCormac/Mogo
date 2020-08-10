@@ -5,7 +5,7 @@
 .section__header {
   width: 100%;
   max-width: 960px;
-  margin: 0 auto 40px;
+  margin: 0 auto 50px;
   text-align: center;
 }
 .section__suptitle {
@@ -46,4 +46,13 @@
     margin: 30px auto 30px;
     background-color: #f38181;
   }
+}
+
+hr {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: #cccccc;
+  margin: 40px 0;
 }
