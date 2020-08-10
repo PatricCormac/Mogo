@@ -1,6 +1,9 @@
+@import "./vars";
+@import "./helpers";
+
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: $Montserrat;
   font-size: 10px;
   color: #333;
   line-height: 1.6;
@@ -29,3 +32,4 @@ h6 {
 
 @import "./blocks/header";
 @import "./blocks/intro";
+@import "./blocks/about";
