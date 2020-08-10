@@ -1,0 +1,30 @@
+.stats {
+  background-color: $blue;
+}
+
+.stats__content {
+  display: flex;
+}
+
+.stats__item {
+  flex: 1 1 0;
+  border-left: 1px solid #fff;
+  opacity: 0.7;
+  text-align: center;
+  color: #fff;
+  padding: 70px 0;
+
+  &:last-child {
+    border-right: 1px solid #fff;
+  }
+}
+
+.stats__value {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+}
+.stats__text {
+  font-size: 14px;
+  text-transform: uppercase;
+}

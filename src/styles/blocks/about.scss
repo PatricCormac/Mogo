@@ -6,7 +6,7 @@
 
 .about__item {
   width: 380px;
-  background-color: #95e1d3;
+  background-color: $blue;
   position: relative;
   &:hover {
     .about__img {
@@ -43,5 +43,5 @@
   transform: translate(-50%, -50%);
   z-index: 2;
   opacity: 0;
-  transition: opacity 0.2s linear;
+  transition: opacity 0.1s linear;
 }
