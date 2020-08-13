@@ -1,0 +1,16 @@
+.devices__content {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.devices__item {
+  display: block;
+  &--mob {
+    position: absolute;
+    bottom: -70px;
+    right: -10px;
+    z-index: 1;
+  }
+}
