@@ -11,6 +11,10 @@
   &--gray {
     background-color: #f8f8f8;
   }
+  &--clients {
+    background: url(../assets/img/clients-bg.jpg) center no-repeat;
+    background-size: cover;
+  }
 }
 
 .section__header {
