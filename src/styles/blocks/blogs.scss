@@ -1,0 +1,34 @@
+.blogs__item {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.blogs__img {
+  width: 120px;
+  height: 80px;
+}
+
+.blogs__content {
+  padding-left: 20px;
+}
+
+.blogs__title {
+  display: block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: $mainColor;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.5;
+  :hover {
+    text-decoration: underline;
+  }
+}
+
+.blogs__date {
+  font-size: 13px;
+  color: #999;
+  font-style: italic;
+  font-weight: 300;
+}

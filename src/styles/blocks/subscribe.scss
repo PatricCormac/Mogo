@@ -1,0 +1,48 @@
+.subscribe {
+  width: 100%;
+  max-width: 380px;
+  display: flex;
+}
+
+.subscribe__input {
+  width: 60%;
+  font-family: $Montserrat;
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  font-size: 15px;
+  font-style: italic;
+  color: #ccc;
+  font-weight: 300;
+  padding: 12px;
+  height: 40px;
+  line-height: 1.1;
+  &::placeholder {
+    color: #ccc;
+  }
+  &:focus {
+    outline: 0;
+    border-color: $blue;
+  }
+}
+
+.subscribe__btn {
+  width: 40%;
+  font-family: $Montserrat;
+  height: 40px;
+  background: $blue;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.1;
+  text-transform: uppercase;
+  padding: 12px 30px;
+  transition: background 0.2s linear;
+  &:hover {
+    background-color: #74c7b8;
+  }
+  &:focus {
+    outline: 0;
+  }
+}

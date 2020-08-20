@@ -1,0 +1,16 @@
+.instagram {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instagram__item {
+  width: 33.3333%;
+  border-bottom: 1px solid #fff;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
