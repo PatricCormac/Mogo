@@ -7,6 +7,8 @@
 
 .devices__item {
   display: block;
+  max-width: 100%;
+  height: auto;
   &--mob {
     position: absolute;
     bottom: -70px;

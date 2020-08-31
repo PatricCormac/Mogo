@@ -3,7 +3,7 @@
 .section {
   padding: 80px 0;
   &--devices {
-    background: url(../assets/img/bg_devices.jpg) center no-repeat;
+    background: url(../img/bg_devices.jpg) center no-repeat;
     background-size: cover;
     padding-bottom: 0;
     margin-bottom: 40px;
@@ -12,13 +12,13 @@
     background-color: #f8f8f8;
   }
   &--clients {
-    background: url(../assets/img/clients-bg.jpg) center no-repeat;
+    background: url(../img/clients-bg.jpg) center no-repeat;
     background-size: cover;
   }
   &--map {
     padding: 50px 0;
     background-color: #e6e6e6;
-    background: url(../assets/img/map-bg.jpg) center no-repeat;
+    background: url(../img/map-bg.jpg) center no-repeat;
     background-size: cover;
   }
 }
@@ -40,7 +40,7 @@
   color: $mainColor;
   text-transform: uppercase;
   &:after {
-    content: "";
+    content: '';
     width: 60px;
   }
 }
@@ -52,7 +52,7 @@
 
 .line-after {
   &:after {
-    content: "";
+    content: '';
     display: block;
     width: 60px;
     height: 3px;
@@ -60,7 +60,7 @@
     background-color: #fff;
   }
   &--section:after {
-    content: "";
+    content: '';
     display: block;
     width: 60px;
     height: 3px;
@@ -68,7 +68,7 @@
     background-color: #f38181;
   }
   &--map:after {
-    content: "";
+    content: '';
     display: block;
     width: 60px;
     height: 3px;
@@ -91,7 +91,7 @@ hr {
 .card {
   display: flex;
   justify-content: space-between;
-  margin-top: 80px;
+  margin: 80px -15px 0;
 }
 
 .card__inner {
@@ -100,7 +100,8 @@ hr {
 }
 
 .card__item {
-  width: 380px;
+  width: 33.33333%;
+  padding: 0 15px;
   &:hover {
     .card__img {
       transform: translate(-10px, -10px);
@@ -120,6 +121,8 @@ hr {
 
   img {
     display: block;
+    max-width: 100%;
+    height: auto;
     transition: opacity 0.1s linear;
   }
 }
